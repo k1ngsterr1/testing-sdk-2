@@ -1,0 +1,22 @@
+body {
+  background-color: burlywood;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.heading {
+  font-size: 48px;
+}
+
+[contenteditable="true"] {
+  outline: none; /* Removes the focus outline */
+  border: none; /* Removes the border, if any */
+}
+
+/* If you want to apply styles only when the element is focused, use :focus */
+[contenteditable="true"]:focus {
+  outline: none;
+  border: none;
+}
